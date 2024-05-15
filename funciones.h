@@ -1,0 +1,1 @@
+int buscarNombre(char nombres[][20],char nombre[],int n);
