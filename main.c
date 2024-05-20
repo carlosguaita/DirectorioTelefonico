@@ -26,6 +26,14 @@ int main (int argc, char *argv[]) {
     }else{
         printf("No existe el nombre %s en el directorio",nombreABuscar);
     }
+    imprimirNombreNumeros(nombres,numeros,10);
+
+     printf("Ingrese el nombre que desea editar el numero: ");
+     fflush(stdin);
+     scanf("%s",&nombreABuscar);
+
+    editarNumero(nombres,nombreABuscar,numeros,987654,10);
+    imprimirNombreNumeros(nombres,numeros,10);
    
     return 0;
 }
